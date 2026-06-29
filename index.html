@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <div class="main">
+    <h1>TO DO LIST</h1>
+    <div class="row">
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="btn-add">Add Task</button> 
+  </div>
+
+  <div class="fillter_buttons">
+    <button class="btn-all">
+      All
+    </button>
+    <button class="btn-pending">
+      Pending
+    </button>
+    <button class="btn-completed">
+      Completed 
+    </button>
+    <button id="btn-clear" style="margin-top: 15px; padding: 8px 15px; border-radius: 20px; border: none; background: #ff4d4d; color: white; cursor: pointer;">
+  Clear Completed
+</button>
+  </div>
+
+    <div class="list-container">
+      <ul id="taskList">  
+      </ul>
+    </div>
+  </div>
+<div class="list-container">
+  <ul id="taskList">  
+  </ul>
+</div>
+
+<!-- Add this button here -->
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
